@@ -9,7 +9,17 @@
 #ifndef OSChina_Pra_OSChina_Pra_Prefix_pch
 #define OSChina_Pra_OSChina_Pra_Prefix_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Config.h"
+#import "TBXML.h"
+#import "TBXML+HTTP.h"
+#import "TBXML+Compression.h"
+#import "AFOSCClient.h"
+#import "AFHTTPRequestOperation.h"
+#define AppVersion @"1.7.6"
+
+#define api_news_list @"http://www.oschina.net/action/api/news_list"
+
+
+#define api_blog_list @"http://www.oschina.net/action/api/blog_list"
 
 #endif
